@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+*{
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+
+}
+#dirty{
+    background-image: url(https://i.postimg.cc/907rXBrP/dirty.png);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: bottom 20px left 65%;
+}
+#dirty h1{
+    padding: 40vh 10vw 0;
+    font-size: 55px;
+    color: #414141;
+}
+#clean h1{
+    padding: 40vh 10vw 0;
+    font-size: 55px;
+    color: #8f8f8f;
+}
+#clean{
+    background-image: url(https://i.postimg.cc/mDqPGn22/clean.png);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: bottom 20px left 65%;
+    background-color: black;
+}
+::-webkit-scrollbar{
+    width: 20px;
+}
+::-webkit-scrollbar-track{
+    background: rgb(119, 119, 119);
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(80, 80, 80);
+    border: 3px solid rgb(119, 119, 119);
+}
+@media only screen and (max-width: 479px) {
+    #dirty h1,
+    #clean h1{
+        padding: 10vh 15vw 0;
+        font-size: 50px;
+    }
+}
