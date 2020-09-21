@@ -5,7 +5,7 @@
 
 }
 #dirty{
-    background-image: url(https://i.postimg.cc/907rXBrP/dirty.png);
+    background-image: url(../img/dirty.png);
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;
@@ -23,7 +23,7 @@
     color: #8f8f8f;
 }
 #clean{
-    background-image: url(https://i.postimg.cc/mDqPGn22/clean.png);
+    background-image: url(../img/clean.png);
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;
